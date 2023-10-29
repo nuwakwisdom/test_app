@@ -1,0 +1,5 @@
+class AppAssets {
+  //images
+
+  //icons
+}
