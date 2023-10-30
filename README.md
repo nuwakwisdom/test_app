@@ -2,15 +2,33 @@
 
 A new Flutter project.
 
-## Getting Started
+# Prerequisites
 
-This project is a starting point for a Flutter application.
+Make sure you have the following prerequisites installed on your system:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter: Follow the official [Flutter installation guide](https://docs.flutter.dev/get-started/install) to install Flutter on your machine.
+- Flutter Device: Connect an Android or iOS device to your computer, or set up an emulator/simulator for testing the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Installation
+Clone the repository to your local machine:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone [https://github.com/username/flutter-app.git](https://github.com/nuwakwisdom/test_app.git)
+
+Install dependencies using Flutter's package manager:
+flutter pub get
+
+# How to Run
+# On Emulator/Simulator
+Run the app on a connected emulator/simulator:
+flutter emulator --launch <emulator_id>
+flutter run
+Replace <emulator_id> with the ID of the emulator you want to launch the app on.
+
+# On Physical Device
+Make sure your Android/iOS device is connected to your computer via USB and has USB debugging enabled.
+
+Run the app on the connected device:
+flutter devices
+flutter run -d <device_id>
+
+
